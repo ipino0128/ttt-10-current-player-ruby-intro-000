@@ -3,7 +3,7 @@
 def turn_count(board)
   counter = 0
   turn_count.each do |count|
-    "X"
+   "#{{count}}"
   counter += 2
 end
 end

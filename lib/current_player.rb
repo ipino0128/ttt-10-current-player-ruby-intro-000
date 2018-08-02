@@ -1,6 +1,11 @@
 #method that will tell us how many turns have been played
 #turn_count
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def turn_count(board)
+  board =
+
+
+
   counter = 0
   turn_count.each do |turn|
    puts "#{turn}"

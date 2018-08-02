@@ -1,7 +1,7 @@
 #method that will tell us how many turns have been played
 #turn_count
 def turn_count(board)
-  counter = 1
+  counter = 0
   turn_count.each do |count|
     "X"
   counter += 2

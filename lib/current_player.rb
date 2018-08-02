@@ -4,13 +4,14 @@
 def turn_count(board)
   #this counter keeps track of how many occupied spcaes there are
   counter = 0
+  iterations = 0
   board.each do |turn|
-    if 
-
-
-  counter += 1
-
-
+    if board[iterations] == " "     
+      counter += 1
+      iterations += 1
+    elsif board[iterations] == "X" || board[counter] == "O"
+      iterations +=1
+  
 end
 
 

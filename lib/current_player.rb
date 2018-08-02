@@ -2,10 +2,10 @@
 #turn_count
 def turn_count(board)
   counter = 0
-  turn_count.each do |count|
-   puts "#{{count}}"
+  turn_count.each do |turn|
+   puts "#{{turn}}"
   counter += 2
-end
+  end
 end
 
 

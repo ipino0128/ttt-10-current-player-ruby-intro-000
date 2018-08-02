@@ -12,8 +12,5 @@ def turn_count(board)
 return counter
 end
 
-
-
-
 #method that will return, based on that information, an "X" if it is player "X"'s turn and an "O" if it is player "O"'s turn
 #current_player

@@ -5,15 +5,9 @@ def turn_count(board)
   counter = 0
   board.each do |turn|
   
-    end
+  counter += 1 
+  
 
-
-
-  #counter = 0
-  #turn_count.each do |turn|
-   #puts "#{turn}"
-  #counter += 2
-  #end
 end
 
 

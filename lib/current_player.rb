@@ -2,11 +2,13 @@
 #turn_count
 #board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def turn_count(board)
+  #this counter keeps track of how many occupied spcaes there are
   counter = 0
   board.each do |turn|
   
-  counter += 1 
-  
+
+  counter += 1
+
 
 end
 

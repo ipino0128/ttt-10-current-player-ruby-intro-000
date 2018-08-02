@@ -2,7 +2,8 @@
 #turn_count
 def turn_count(board)
   turn_count.each do |count|
-    puts "X"
+    puts "|count|"
+
 
 
 #method that will return, based on that information, an "X" if it is player "X"'s turn and an "O" if it is player "O"'s turn

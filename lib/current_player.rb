@@ -1,8 +1,9 @@
 #method that will tell us how many turns have been played
 #turn_count
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+#board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def turn_count(board)
-
+  board.each do |turn|
+    
 
 
   #counter = 0

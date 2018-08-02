@@ -6,7 +6,7 @@ def turn_count(board)
   counter = 0
   iterations = 0
   board.each do |turn|
-    if board[iterations] == " "     
+    if board[iterations] == " "
       counter += 1
       iterations += 1
     elsif board[iterations] == "X" || board[counter] == "O"

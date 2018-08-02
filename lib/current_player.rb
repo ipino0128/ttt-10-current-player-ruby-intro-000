@@ -11,7 +11,7 @@ def turn_count(board)
       iterations += 1
     elsif board[iterations] == "X" || board[counter] == "O"
       iterations +=1
-  
+  end
 end
 
 

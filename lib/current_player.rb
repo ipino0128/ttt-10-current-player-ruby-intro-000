@@ -5,7 +5,7 @@ def turn_count(board)
   #this counter keeps track of how many occupied spcaes there are
   counter = 0
   board.each do |turn|
-    
+    if 
 
 
   counter += 1
